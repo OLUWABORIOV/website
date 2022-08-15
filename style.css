@@ -20,3 +20,8 @@
     margin-top: 30px;
     margin-left: 120px;
 }
+.button{
+    width: 200px;
+    border: none;
+    background: #05a35f;
+}
