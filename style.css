@@ -20,8 +20,10 @@
     margin-top: 30px;
     margin-left: 120px;
 }
-.button{
-    width: 200px;
-    border: none;
-    background: #05a35f;
+.content{
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 120px;
+    transform: translateY(-50%);
 }
