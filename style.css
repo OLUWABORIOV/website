@@ -27,3 +27,9 @@
     left: 120px;
     transform: translateY(-50%);
 }
+.content h1{
+    color: #05a35f;
+    font-size: 60px;
+    line-height: 70px;
+    margin: 25px 0;
+}
