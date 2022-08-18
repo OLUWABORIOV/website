@@ -33,10 +33,6 @@
     line-height: 70px;
     margin: 25px 0;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> f45ebf70e77f371ffa05017ff138d5bc75295e7d
 .content p{
     color: #777;
     font-size: 17px;
@@ -56,10 +52,10 @@ button{
 }
 .slider{
     width: 100%;
-<<<<<<< HEAD
     height: 60px;
     display: flex;
 }
+
 .slider img{
     width: 100%;
 }
@@ -67,7 +63,6 @@ button{
     width: 100%;
     height: 40px;
     background: #05a35f;
-=======
     height: 60%;
     display: flex;
 }
@@ -81,7 +76,7 @@ button{
     padding-top: 30px;
     padding-left: 30px;
     box-sizing: border-box;
->>>>>>> f45ebf70e77f371ffa05017ff138d5bc75295e7d
+
 }
 .slider-content h2{
     font-size: 26px;
@@ -91,7 +86,6 @@ button{
 .slider-content p{
     color: #bfffdd;
     font-size: 16px;
-<<<<<<< HEAD
     line-height: 23px;
     margin-bottom: 20px;
 }
@@ -110,10 +104,39 @@ hr{
     justify-content: space-between;
 }
 .controller img{
-    width: 15px;
+    width: 45px;
     cursor: pointer;
-=======
     line-height: 24px;
     margin-bottom: 20px;
->>>>>>> f45ebf70e77f371ffa05017ff138d5bc75295e7d
+
 }
+.vertical-line{
+    width: 2px;
+    height: 30px;
+    background: #b5e3cf;
+}
+/*---- media query for small screen devices ------*/
+
+
+@media only screen and (max-width: 800px) {
+    .logo{
+        margin: 30px auto;
+    }
+    .left-col, .right-col{
+        flex-basis: 100%;
+    }
+    .content{
+        left: 0;
+        padding: 20px;
+        text-align: center;
+    }
+    .content h1{
+        font-size: 34px;
+        line-height: 38px;
+    }
+    .slider{
+        height: auto;
+    }
+    .slider content{
+        height: auto;
+    }
