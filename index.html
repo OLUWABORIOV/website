@@ -21,7 +21,7 @@
 
 
 <div class="slider">
-    <img src="../img/pic-1.jpg" alt="my pic">
+    <img src="../img/pic-1.jpg" alt="my pic" id="Slide">
 </div>
 <div class="slider-content">
     <h2>where can I find these for small rooms?</h2>
@@ -30,18 +30,46 @@
        the air. No home<br> should be without these wonderful greens! 
         Designing small rooms comes with a <br>completely different 
         challenge.</p>
-</div>
+
 <div class="controller">
-    <img src="../img/back.png" alt="back">
+    <img src="../img/back.png" alt="back" id="BackBtn">
     <div class="vertical-line"></div>
-    <img src="../img/next.png" alt="next">
+    <img src="../img/next.png" alt="next" id="NextBtn">
 </div>
 
     </div>
+
+</div>
 </div>
     
 
+<script>
+    var Slide = document.getElementById("Slide");
+    var Slide = document.getElementById("BackBtn");
+    var Slide = document.getElementById("NextBtn");
 
+    var slideImages = new Array(
+            "Images/pic-1.jpg",
+            "Images/pic-2.jpg",
+            "Images/pic-3.jpg",
+            "Images/pic-4.jpg",
+        );
+
+    let i = 0;
+
+    NextBtn.onclick = function(){
+        if(i > 3){
+            Slide.src = slideimages[i+1];
+                i++;
+            }
+    }
+    BackBtn.onclick = function(){
+        if(i > 0){
+            Slide.src = slideimages[i-1];
+                i--;
+            }
+    }
+</script>
 
 
     
